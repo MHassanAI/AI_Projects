@@ -33,13 +33,8 @@
 
 ### Run
 
-🔥🔥🔥🔥🔥🔥 You need install [TensorLayerX](https://github.com/tensorlayer/TensorLayerX#installation) at first!
+🔥🔥🔥🔥🔥🔥 You need install [TensorLayerX]
 
-🔥🔥🔥🔥🔥🔥 Please install TensorLayerX via source
-
-```bash
-pip install git+https://github.com/tensorlayer/tensorlayerx.git 
-```
 
 #### Train
 - Set your image folder in `config.py`, if you download [DIV2K - bicubic downscaling x4 competition](http://www.vision.ee.ethz.ch/ntire17/) dataset, you don't need to change it. 
@@ -139,42 +134,3 @@ Results will be saved under the folder srgan/samples/.
 ### Reference
 * [1] [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://arxiv.org/abs/1609.04802)
 * [2] [Is the deconvolution layer the same as a convolutional layer ?](https://arxiv.org/abs/1609.07009)
-
-
-
-### Citation
-If you find this project useful, we would be grateful if you cite the TensorLayer paper：
-
-```
-@article{tensorlayer2017,
-author = {Dong, Hao and Supratak, Akara and Mai, Luo and Liu, Fangde and Oehmichen, Axel and Yu, Simiao and Guo, Yike},
-journal = {ACM Multimedia},
-title = {{TensorLayer: A Versatile Library for Efficient Deep Learning Development}},
-url = {http://tensorlayer.org},
-year = {2017}
-}
-
-@inproceedings{tensorlayer2021,
-  title={TensorLayer 3.0: A Deep Learning Library Compatible With Multiple Backends},
-  author={Lai, Cheng and Han, Jiarong and Dong, Hao},
-  booktitle={2021 IEEE International Conference on Multimedia \& Expo Workshops (ICMEW)},
-  pages={1--3},
-  year={2021},
-  organization={IEEE}
-}
-```
-
-### Other Projects
-
-- [Style Transfer](https://github.com/tensorlayer/adaptive-style-transfer)
-- [Pose Estimation](https://github.com/tensorlayer/openpose)
-
-### Discussion
-
-- [TensorLayer Slack](https://join.slack.com/t/tensorlayer/shared_invite/enQtMjUyMjczMzU2Njg4LWI0MWU0MDFkOWY2YjQ4YjVhMzI5M2VlZmE4YTNhNGY1NjZhMzUwMmQ2MTc0YWRjMjQzMjdjMTg2MWQ2ZWJhYzc)
-- [TensorLayer WeChat](https://github.com/tensorlayer/tensorlayer-chinese/blob/master/docs/wechat_group.md)
-
-### License
-
-- For academic and non-commercial use only.
-- For commercial use, please contact tensorlayer@gmail.com.
